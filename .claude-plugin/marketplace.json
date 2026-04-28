@@ -1,0 +1,16 @@
+{
+  "name": "worksystems-design-esteem",
+  "owner": {
+    "name": "Thomas Krause"
+  },
+  "plugins": [
+    {
+      "name": "esteem",
+      "description": "Systems Thinking support — Causal Loop Diagrams, archetypes, and facilitation skills. Sibling to Libertee under DWSD.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/worksystems-design/esteem.git"
+      }
+    }
+  ]
+}

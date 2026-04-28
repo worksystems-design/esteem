@@ -1,0 +1,10 @@
+{
+  "name": "esteem",
+  "version": "0.1.0",
+  "description": "Systems Thinking support for Claude Code — explains and facilitates canonical thinking models (Causal Loop Diagrams, archetypes, more to come). Convergent counterpart to Libertee. Layer 1 (models) and Layer 2 (facilitation) cleanly separated. Co-creates .cld.md artifacts with the user.",
+  "author": {
+    "name": "Thomas Krause",
+    "url": "https://worksystems.design"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+# Transient working files (per-session sketches, personal CLDs)
+.transient/
+
+# Claude Code local settings (per-machine, not shared)
+.claude/settings.local.json
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Editor swap files
+*.swp
+*.swo
+*~
