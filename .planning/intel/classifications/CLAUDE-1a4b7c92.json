@@ -1,0 +1,13 @@
+{
+  "source_path": "C:/Users/Thomy/Documents/projects/2026-04 esteem/CLAUDE.md",
+  "type": "DOC",
+  "confidence": "high",
+  "manifest_override": true,
+  "title": "Esteem – Project Conventions",
+  "summary": "Project conventions for the Esteem Systems Thinking plugin: two-layer model/skill architecture, agent roles, DSL namespace, repo structure, and open decisions.",
+  "scope": ["Esteem plugin", "Systems Thinking models", "two-layer architecture", "models/ Layer 1", "skills/ Layer 2", "agent roles", "esteem.* DSL fence tags", "CLD DSL grammar", "repo structure", "working conventions"],
+  "cross_refs": ["../202604 esteem marketing/origin/esteem-planning.md", "models/cld/dsl.md", "../2026-04 esteem-dsl-vscode/docs/dsl.md", "models/cld/cld-logic.md", "README.md"],
+  "locked": false,
+  "precedence": 3,
+  "notes": "Type taken from MANIFEST_TYPE. Contains an 'Open Decisions' section explicitly marked as unlocked; also documents a hard downstream coupling (dsl.md SHA-256 pin breaking sibling repo CI)."
+}

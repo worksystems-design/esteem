@@ -1,0 +1,30 @@
+{
+  "source_path": "C:/Users/Thomy/Documents/projects/2026-04 esteem/docs/design-notes/2026-07-29-dsl-direction-and-layering.md",
+  "type": "ADR",
+  "confidence": "high",
+  "manifest_override": true,
+  "title": "Design note — DSL direction and layering",
+  "summary": "Six decisions moving the CLD DSL to pure YAML, spelled-out polarity, list loop paths, derived loops, open-state tolerance, and a mechanical/didactic layer split.",
+  "scope": [
+    "CLD DSL",
+    "YAML format",
+    "polarity notation",
+    "loops section",
+    "cycle detection / near-miss",
+    "models/cld",
+    "skills/cld-build",
+    "skills/cld-teach",
+    "esteem-dsl-vscode extension"
+  ],
+  "cross_refs": [
+    "models/cld/dsl.md",
+    "models/cld/cld-logic.md",
+    "skills/cld-build/SKILL.md",
+    "CONTRIBUTING.md",
+    "plugin.json",
+    "README.md"
+  ],
+  "locked": false,
+  "precedence": 0,
+  "notes": "Manifest declared ADR; accepted as authoritative. Status reads 'direction agreed, nothing implemented yet' — not 'Accepted', so locked=false. Contains six numbered decisions plus open questions and migration impact."
+}

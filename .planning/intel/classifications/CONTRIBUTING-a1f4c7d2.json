@@ -1,0 +1,13 @@
+{
+  "source_path": "C:/Users/Thomy/Documents/projects/2026-04 esteem/CONTRIBUTING.md",
+  "type": "DOC",
+  "confidence": "high",
+  "manifest_override": true,
+  "title": "Contributing to Esteem",
+  "summary": "Contribution guide for Esteem covering scope, the two-layer models/skills rule, file templates, design principles, testing, and attribution.",
+  "scope": ["contribution process", "two-layer architecture", "models/", "skills/", "CLD", "CRT", "FRT", "Evaporating Cloud", "Ladder of Inference", "First Principles", "archetypes", "DSL specs", "file templates", "structural testing", "examples"],
+  "cross_refs": ["models/<model>/<model>-logic.md", "models/<model>/dsl.md", "models/<model>/archetypes/_index.md", "skills/<skill-name>/SKILL.md", "skills/<skill>/agents/<role>.md", "examples/fixes-that-fail-session.md", "https://github.com/worksystems-design/libertee"],
+  "locked": false,
+  "precedence": 3,
+  "notes": ""
+}

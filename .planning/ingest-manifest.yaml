@@ -1,0 +1,13 @@
+docs:
+  - path: docs/design-notes/2026-07-29-dsl-direction-and-layering.md
+    type: ADR
+    precedence: 0
+  - path: CLAUDE.md
+    type: DOC
+    precedence: 3
+  - path: README.md
+    type: DOC
+    precedence: 3
+  - path: CONTRIBUTING.md
+    type: DOC
+    precedence: 3

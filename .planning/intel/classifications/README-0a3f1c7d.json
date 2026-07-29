@@ -1,0 +1,13 @@
+{
+  "source_path": "C:/Users/Thomy/Documents/projects/2026-04 esteem/README.md",
+  "type": "DOC",
+  "confidence": "high",
+  "manifest_override": true,
+  "title": "Esteem",
+  "summary": "Overview of the Esteem Claude Code plugin: two-layer architecture, CLD model, archetypes, skills, installation, and roadmap.",
+  "scope": ["Esteem plugin", "Causal Loop Diagrams", "CLD DSL", "Systems Thinking archetypes", "cld-teach skill", "cld-build skill", "models/skills two-layer architecture", "roadmap"],
+  "cross_refs": ["models/cld/dsl.md", "models/cld/cld-logic.md", "models/cld/archetypes/", "models/cld/archetypes/_index.md", "examples/fixes-that-fail-session.md", "LICENSE", "CLAUDE.md"],
+  "locked": false,
+  "precedence": 3,
+  "notes": ""
+}
