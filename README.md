@@ -64,9 +64,9 @@ Co-create a CLD with the user. Produces a `.cld.md` file in the current director
 
 A CLD makes circular causality in a system visible: which quantities act on which, in which direction, with what delay — and which effects close into loops.
 
-Esteem's CLDs use a small textual DSL inside a fenced ```cld block:
+Esteem's CLDs use a small textual DSL inside a fenced ```esteem.cld block:
 
-```cld
+```esteem.cld
 variables:
   - team-overload
   - hiring

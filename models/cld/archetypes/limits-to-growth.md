@@ -16,7 +16,7 @@ A reinforcing loop drives growth — more activity, more resources, more activit
 
 ## Generic structure
 
-```cld
+```esteem.cld
 variables:
   - growing-action
   - performance

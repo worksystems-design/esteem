@@ -4,6 +4,9 @@
 # Claude Code local settings (per-machine, not shared)
 .claude/settings.local.json
 
+# Serena tool state (per-machine, regenerated on demand)
+.serena/
+
 # OS clutter
 .DS_Store
 Thumbs.db

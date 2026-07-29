@@ -16,7 +16,7 @@ A resource is shared and finite. Each actor's marginal use yields private benefi
 
 ## Generic structure
 
-```cld
+```esteem.cld
 variables:
   - a-activity
   - b-activity

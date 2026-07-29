@@ -22,7 +22,7 @@ The R1 loop only becomes visible when the delay plays out. Until then, the fix l
 
 ## Generic structure
 
-```cld
+```esteem.cld
 # title: Fixes that Fail (archetype)
 
 variables:
@@ -74,7 +74,7 @@ If two or more of these show up, *Fixes that Fail* is a strong candidate.
 
 A team is overloaded. Sprint reliability drops. Management hires more people to relieve the load. In the short term, capacity rises and the symptom recedes. But onboarding new hires consumes senior time, fragments knowledge, and increases coordination overhead. After a few months, the team is more overloaded than before — so they hire again, harder. Each cycle adds people but reduces effective capacity per person.
 
-```cld
+```esteem.cld
 # title: Hiring treadmill — Fixes that Fail instance
 # status: example
 # created: 2026-04-28

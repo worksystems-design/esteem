@@ -16,7 +16,7 @@ A goal is hard to measure directly, so a proxy metric is used. The metric become
 
 ## Generic structure
 
-```cld
+```esteem.cld
 variables:
   - underlying-goal
   - metric

@@ -64,7 +64,7 @@ created: <today's date>
 
 <one paragraph capturing the user's situation framing — paraphrased, asked for confirmation>
 
-```cld
+```esteem.cld
 variables:
 
 links:
@@ -120,7 +120,7 @@ If yes:
 4. Let the user pick (or reject)
 5. If picked, read the full archetype file. Verify the user's variables can map to the archetype's slots. If yes, append to the file:
 
-```cld
+```esteem.cld
 archetype: <archetype-id>
 instance: <slug>
   map:
@@ -151,7 +151,7 @@ Tell the user the file path and summarize what is in it. Suggest natural next st
 ## What you must NOT do
 
 - Do not write to the file before the user has confirmed the framing paragraph.
-- Do not rewrite the whole `cld` block on each change — use `Edit` to modify in place.
+- Do not rewrite the whole `esteem.cld` block on each change — use `Edit` to modify in place.
 - Do not create a session log file, transcript file, or any sidecar — single `.cld.md` only.
 - Do not push an archetype match the user has not confirmed.
 - Do not use any tool other than `Read`, `Write`, `Edit`.

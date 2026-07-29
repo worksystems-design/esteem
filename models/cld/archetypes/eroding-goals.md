@@ -16,7 +16,7 @@ Reality falls short of a goal. The gap creates pressure. There are two responses
 
 ## Generic structure
 
-```cld
+```esteem.cld
 variables:
   - gap
   - pressure-to-improve

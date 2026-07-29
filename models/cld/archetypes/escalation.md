@@ -16,7 +16,7 @@ Two actors each measure their position relative to the other. When one perceives
 
 ## Generic structure
 
-```cld
+```esteem.cld
 variables:
   - a-action
   - b-action

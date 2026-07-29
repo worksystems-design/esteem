@@ -38,7 +38,7 @@ created: 2026-04-28
 
 A team that keeps growing but feels more overloaded each quarter. Hiring rounds bring short-term capacity relief but introduce onboarding and coordination overhead that, after a delay, makes the team's overall load worse than before. The pattern has repeated at least twice.
 
-```cld
+```esteem.cld
 variables:
 
 links:
@@ -183,7 +183,7 @@ created: 2026-04-28
 
 A team that keeps growing but feels more overloaded each quarter. Hiring rounds bring short-term capacity relief but introduce onboarding and coordination overhead that, after a delay, makes the team's overall load worse than before. The pattern has repeated at least twice.
 
-```cld
+```esteem.cld
 variables:
   - team-overload
   - hiring

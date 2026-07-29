@@ -16,7 +16,7 @@ An actor adjusts toward a target. The effect of the adjustment is delayed. By th
 
 ## Generic structure
 
-```cld
+```esteem.cld
 variables:
   - gap-to-target
   - corrective-action

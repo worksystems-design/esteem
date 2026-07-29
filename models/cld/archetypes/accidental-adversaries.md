@@ -16,7 +16,7 @@ Two parties (teams, departments, partners) initially cooperate; their joint succ
 
 ## Generic structure
 
-```cld
+```esteem.cld
 variables:
   - a-success
   - b-success

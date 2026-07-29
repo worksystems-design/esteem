@@ -16,7 +16,7 @@ A problem has two solutions: a quick symptomatic fix and a slower fundamental so
 
 ## Generic structure
 
-```cld
+```esteem.cld
 variables:
   - problem-symptom
   - symptomatic-fix

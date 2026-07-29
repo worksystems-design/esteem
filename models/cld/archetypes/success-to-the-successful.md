@@ -16,7 +16,7 @@ Two options compete for a finite resource (attention, budget, time, talent). Whi
 
 ## Generic structure
 
-```cld
+```esteem.cld
 variables:
   - a-success
   - b-success

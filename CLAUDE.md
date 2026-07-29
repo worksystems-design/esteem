@@ -52,16 +52,26 @@ Pick the role per facilitation skill — don't blend.
 
 ## DSL & Markdown
 
-Markdown is the source of truth. DSL blocks live as fenced code blocks:
+Markdown is the source of truth. DSL blocks live as fenced code blocks under the `esteem.` namespace:
 
 ```
-```cld    – Causal Loop Diagram
-```crt    – Current Reality Tree
-```frt    – Future Reality Tree
-```ec     – Evaporating Cloud
+```esteem.cld    – Causal Loop Diagram
+```esteem.crt    – Current Reality Tree
+```esteem.frt    – Future Reality Tree
+```esteem.ec     – Evaporating Cloud
 ```
+
+**Fence tags are always `esteem.<model>` — never the bare model name.** The namespace prevents collisions with other tools that might claim a generic tag like ```cld, and it is what the VSCode extension's TextMate grammar injects on. Any new model follows the same shape.
+
+The `.cld.md` file suffix is unaffected — that names the markdown *container*, not the block. Same for future `.crt.md` etc.
 
 Model files in `models/<model>/` define the DSL grammar and validation rules. Skills reference them.
+
+### Downstream coupling — `models/cld/dsl.md`
+
+`models/cld/dsl.md` is the **single source of truth for the DSL grammar** and is mirrored into the sibling repo `../2026-04 esteem-dsl-vscode/docs/dsl.md`, pinned by SHA-256.
+
+**Any change to `dsl.md` breaks that repo's CI** until someone runs `pnpm sync-spec` there and commits the new pin. The two repos must stay side by side in the same parent directory — `sync-spec.sh` resolves the source via the relative path `../2026-04 esteem/models/cld/dsl.md`.
 
 ## Repo Structure (planned)
 

@@ -111,7 +111,7 @@ model: <model>
 ```markdown
 ---
 name: <model>-dsl
-description: "DSL grammar for <Model> — how to write an instance as a fenced ```<model> block"
+description: "DSL grammar for <Model> — how to write an instance as a fenced ```esteem.<model> block"
 layer: 1
 model: <model>
 version: 0.1
@@ -140,7 +140,7 @@ type: archetype
 [2-3 sentence pattern description]
 
 ## Generic structure
-```<model>
+```esteem.<model>
 [DSL block showing the canonical structure]
 ```
 

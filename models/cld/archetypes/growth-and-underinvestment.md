@@ -16,7 +16,7 @@ A reinforcing growth loop is constrained by capacity. Investment could expand ca
 
 ## Generic structure
 
-```cld
+```esteem.cld
 variables:
   - demand
   - service-quality

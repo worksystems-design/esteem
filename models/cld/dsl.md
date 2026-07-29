@@ -1,6 +1,6 @@
 ---
 name: cld-dsl
-description: "DSL v0.1 grammar for Causal Loop Diagrams — how to write a CLD as a fenced ```cld block in markdown"
+description: "DSL v0.1 grammar for Causal Loop Diagrams — how to write a CLD as a fenced ```esteem.cld block in markdown"
 layer: 1
 model: cld
 version: 0.1
@@ -8,9 +8,9 @@ version: 0.1
 
 # CLD DSL — v0.1
 
-A textual notation for Causal Loop Diagrams. Lives as a **fenced code block** with language tag `cld` inside any markdown file. Markdown is the source of truth — the surrounding prose holds context, the block holds the diagram.
+A textual notation for Causal Loop Diagrams. Lives as a **fenced code block** with language tag `esteem.cld` inside any markdown file. Markdown is the source of truth — the surrounding prose holds context, the block holds the diagram.
 
-```cld
+```esteem.cld
 # title: Sprint reliability
 # status: draft
 # created: 2026-04-28
@@ -33,7 +33,7 @@ loops:
 
 ## Sections
 
-A `cld` block has up to four sections, in this order:
+An `esteem.cld` block has up to four sections, in this order:
 
 1. **Header comments** (optional) — `# key: value` lines. Conventional keys: `title`, `status`, `created`, `author`. Free-form, not validated.
 2. **`variables:`** — a list of named quantities (one per line, leading `-`).
@@ -107,7 +107,7 @@ instance: <human-name>
 
 Example:
 
-```cld
+```esteem.cld
 archetype: fixes-that-fail
 instance: hiring-treadmill
   map:
@@ -131,7 +131,7 @@ The following are explicitly out of scope for the first DSL version. They will b
 
 ## File-level convention
 
-When a CLD lives in its own file, use the suffix **`.cld.md`**. The file is markdown — frontmatter on top, prose for context, one or more `cld` fenced blocks for the diagram(s). One canonical CLD per file is the default; multiple blocks are allowed for showing iteration history.
+When a CLD lives in its own file, use the suffix **`.cld.md`**. The file is markdown — frontmatter on top, prose for context, one or more `esteem.cld` fenced blocks for the diagram(s). One canonical CLD per file is the default; multiple blocks are allowed for showing iteration history.
 
 A minimal `.cld.md` skeleton:
 
@@ -146,7 +146,7 @@ created: 2026-04-28
 
 <one paragraph of context — what situation is this CLD about?>
 
-```cld
+```esteem.cld
 variables:
   - …
 
