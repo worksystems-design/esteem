@@ -1,0 +1,6 @@
+{
+  "name": "crt-pane",
+  "version": "0.1.0",
+  "description": "Side pane that draws the latest esteem.crt block (Current Reality Tree) seen in the session",
+  "types": "./types/index.d.ts"
+}
